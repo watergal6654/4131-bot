@@ -2,7 +2,11 @@ mainClassName = "App.java"
 plugins {
     id 'java'
 }
-
+shadowJar {
+baseName = "launcher"
+classifier = null
+version = null
+}
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
