@@ -1,2 +1,2 @@
 
-worker: npm run forever
+worker: node bot.js
