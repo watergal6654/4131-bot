@@ -1,7 +1,10 @@
+apply plugin : "java"
 mainClassName = "App.java"
-plugins {
+/* plugins {
     id 'java'
 }
+*/
+
 shadowJar {
 baseName = "launcher"
 classifier = null
