@@ -17,4 +17,5 @@ dependencies {
     compile 'net.dv8tion:JDA:3.5.0_329'
 
 }
-task stage(dependsOn: ['App.java'])
+task stage(dependsOn: ['build'])
+GRADLE_TASK = "build"
