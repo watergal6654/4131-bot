@@ -17,3 +17,4 @@ dependencies {
     compile 'net.dv8tion:JDA:3.5.0_329'
 
 }
+task stage(dependsOn: ['installDist'])
