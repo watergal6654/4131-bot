@@ -1,1 +1,1 @@
-web: npm run forever
+worker: npm run forever
