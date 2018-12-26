@@ -1,2 +1,2 @@
-web: npm run forever
-worker: node index.js
+worker: npm run forever
+web: node index.js
