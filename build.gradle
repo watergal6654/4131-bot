@@ -18,4 +18,4 @@ dependencies {
 
 }
 task stage(dependsOn: ['build'])
-GRADLE_TASK = "build"
+
